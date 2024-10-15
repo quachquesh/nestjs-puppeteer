@@ -1,0 +1,17 @@
+version: '3.8'
+name: tool_traffic_2
+
+services:
+  tool_traffic_2:
+    container_name: tool_traffic_2
+    build:
+      context: .
+      dockerfile: .docker/dev/Dockerfile
+    ports:
+      - 3000:3000
+    volumes:
+      - ./:/app
+
+volumes:
+  tool_traffic_2_volume:
+    name: tool_traffic_2_volume
