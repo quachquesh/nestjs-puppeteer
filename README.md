@@ -28,6 +28,10 @@
 
 ## Project setup
 
+```
+curl --location 'http://localhost:3000/puppeteer?device=desktop&url=http%3A%2F%2Fgoogle.com%2F'
+```
+
 ```bash
 $ npm install
 ```
